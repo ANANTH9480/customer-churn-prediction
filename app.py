@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 
-model = joblib.load(r"C:\Users\DELL\Customer_churn_prediction\customer_churn_model.pkl")
-scaler = joblib.load(r"C:\Users\DELL\Customer_churn_prediction\scaler.pkl")
-columns = joblib.load(r"C:\Users\DELL\Customer_churn_prediction\columns.pkl")
+model = joblib.load("customer_churn_model.pkl")
+scaler = joblib.load("scaler.pkl")
+columns = joblib.load("columns.pkl")
 
 st.title("📊 Customer Churn Prediction")
 st.markdown("Predict whether a telecom customer is likely to churn based on service and billing information.")
