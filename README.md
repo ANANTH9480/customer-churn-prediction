@@ -21,3 +21,6 @@ This project predicts whether a telecom customer is likely to churn using Machin
 
 ## Developer
 Ananth Reddy
+
+## Live Demo
+https://customer-churn-prediction-ujx8vxvyrlpgagkmhr6r2i.streamlit.app/
